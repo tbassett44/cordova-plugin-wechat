@@ -2,7 +2,7 @@ var fs = require('fs');
 
 module.exports = function (context) {
     var options = context.opts;
-    var projectConfigFile = options.projectRoot + '/config.xml';
+    var projectConfigFile = options.projectRoot + '/www/config.xml';
     
     var projectIdRegex = /<widget[^>]*\sid=(["'])((?:(?!\1|\s).)+)/i;
     
